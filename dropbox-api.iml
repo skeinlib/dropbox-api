@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="dropbox-api">
+    <configurations>
+      <configuration name="dropbox-api" pure-as="true" output-type="Library" output-file="dropbox-api.swc" output-folder="$MODULE_DIR$/../../potbotics/ryah/out/production/dropbox-api">
+        <dependencies target-player="27.0">
+          <entries>
+            <entry module-name="skein-core" build-configuration-name="skein-core">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry module-name="skein-logger" build-configuration-name="skein-logger">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry module-name="skein-rest" build-configuration-name="skein-rest">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry module-name="skein-utils" build-configuration-name="skein-utils">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry module-name="promise-as3" build-configuration-name="promise-as3">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="27.0.0" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="27.0.0" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="skein-core" exported="" />
+    <orderEntry type="module" module-name="skein-rest" exported="" />
+    <orderEntry type="module" module-name="skein-logger" exported="" />
+    <orderEntry type="module" module-name="skein-utils" exported="" />
+    <orderEntry type="module" module-name="promise-as3" exported="" />
+  </component>
+</module>
