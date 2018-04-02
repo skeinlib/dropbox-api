@@ -2,7 +2,7 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="dropbox-api">
     <configurations>
-      <configuration name="dropbox-api" pure-as="true" output-type="Library" output-file="dropbox-api.swc" output-folder="$MODULE_DIR$/../../potbotics/ryah/out/production/dropbox-api">
+      <configuration name="dropbox-api" pure-as="true" output-type="Library" output-file="dropbox-api.swc" output-folder="$MODULE_DIR$/bin">
         <dependencies target-player="27.0">
           <entries>
             <entry module-name="skein-core" build-configuration-name="skein-core">
