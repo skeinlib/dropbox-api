@@ -30,6 +30,7 @@ public class DefaultFilesService implements FilesService {
 
         rest("https://api.dropboxapi.com/2/files/list_folder")
             .addHeader(new URLRequestHeader("Authorization", "Bearer " + Dropbox.shared.accessToken))
+            .params({})
             .decoder(EntryDisassembler.decode)
             .result(deferred.resolve)
             .error(deferred.reject)
@@ -44,6 +45,7 @@ public class DefaultFilesService implements FilesService {
         rest("https://content.dropboxapi.com/2/files/download")
             .addHeader(new URLRequestHeader("Authorization", "Bearer " + Dropbox.shared.accessToken))
             .addHeader(new URLRequestHeader("Dropbox-API-Arg", JSON.stringify(request).replace("\\s", "")))
+            .params({})
             .contentType("text/plain")
             .result(deferred.resolve)
             .error(deferred.reject)
